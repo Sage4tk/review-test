@@ -4,8 +4,6 @@ stars.forEach(element => {
     element.addEventListener("click", (ele:any) => {
         const target = document.querySelector(".target");
 
-        console.log(typeof ele.target.parentNode.id)
-
         //clear target html
         target.innerHTML = ""
 
